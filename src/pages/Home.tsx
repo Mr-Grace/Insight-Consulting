@@ -164,10 +164,14 @@ const Home: React.FC = () => {
           <p className="text-xl mb-8">
             Contactez-nous pour une consultation gratuite
           </p>
-          <button className="bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 inline-flex items-center shadow-lg">
-            Demander un devis
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </button>
+          <a
+            href="https://wa.me/243971938715"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 inline-flex items-center shadow-lg">
+              Demander un devis
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
         </div>
       </section>
     </div>
