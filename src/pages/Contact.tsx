@@ -9,6 +9,7 @@ import {
   MessageSquare,
   User,
   Linkedin,
+  Instagram,
   Facebook
 } from 'lucide-react';
 
@@ -207,16 +208,15 @@ const Contact: React.FC = () => {
                 </h2>
                 <div className="flex space-x-4">
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/mr-grace/"
                     className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors"
                   >
                     <Linkedin className="h-6 w-6 text-blue-700" />
                   </a>
                   <a
                     href="#"
-                    className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors"
-                  >
-                    <Facebook className="h-6 w-6 text-blue-700" />
+                    className="bg-blue-100 p-3 rounded-full hover:bg-blue-200 transition-colors">
+                    <Instagram className="h-6 w-6 text-blue-700" />
                   </a>
                 </div>
               </div>

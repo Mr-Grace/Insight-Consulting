@@ -415,9 +415,12 @@ const Services: React.FC = () => {
           <p className="text-xl mb-8">
             Contactez-nous pour discuter de votre projet et obtenir un devis personnalisé
           </p>
-          <button className="bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg">
-            Demander un devis gratuit
-          </button>
+          <a 
+            href="https://wa.me/243971938715" 
+            target="_blank" 
+            className="bg-green-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-green-600 transition-all duration-300 transform hover:scale-105 shadow-lg">
+            Contacter sur WhatsApp
+          </a>
         </div>
       </section>
     </div>

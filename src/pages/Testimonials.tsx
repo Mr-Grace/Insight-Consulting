@@ -191,14 +191,13 @@ const Testimonials: React.FC = () => {
           <p className="text-xl mb-8">
             Contactez-nous pour discuter de votre projet et découvrir comment nous pouvons vous aider
           </p>
-          <a
-            href="https://wa.me/243971938715"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white text-blue-700 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors"
-          >
-            Discuter sur WhatsApp
+          <a 
+            href="https://wa.me/243971938715" 
+            target="_blank" 
+            className="bg-green-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-green-600 transition-all duration-300 transform hover:scale-105 shadow-lg">
+            Contacter sur WhatsApp
           </a>
+
         </div>
       </section>
     </div>
